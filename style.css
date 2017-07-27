@@ -24,12 +24,6 @@ body {
     top: 18px;
 }
 
-.header {
-  max-width: 60%;
-  margin: auto;
-  transform: translate(0, 150px);
-}
-
 nav {
   margin: 0;
   padding: 0;
@@ -57,4 +51,81 @@ nav ul li {
   padding: 10px 0;
 }
 
+.header {
+  max-width: 65%;
+  margin: 0 auto;
+  transform: translate(0, 115px);
+  color: white;
+}
 
+.header a {
+  margin: 0;
+}
+
+#bottom-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.lower-square {
+  height: 200px;
+  width: 337.75px;
+  margin: 1px 0;
+  border: solid 1px white;
+  background-color: #19f;
+}
+
+#sqr-1 {
+  background-image: url(http://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+}
+
+#sqr-2 {
+  background-image: url(http://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+}
+
+#sqr-3 {
+  background-image: url(http://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg);
+}
+
+#sqr-4 {
+  background-image: url(http://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+}
+
+footer {
+  height: 90px;
+}
+
+.wrapper {
+  color: gray;
+  font-size: 12px;
+  padding: 5px 185px 15px 185px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #19f;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+#online-store {
+  display: inline-block;
+}
+
+#footer-links {
+  display: inline-block;
+}
+
+#footer-links img {
+  transform: translate(0, 3px);
+}
+
+.footer-nav {
+  display: inline-block;
+}
+
+#copyright {
+  clear: both;
+}
