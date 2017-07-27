@@ -16,7 +16,6 @@ body {
 }
 
 #nav {
-  background-color: grey;
   height: 36px;
   width: 980px;
   margin: auto;
@@ -27,6 +26,10 @@ body {
 nav {
   margin: 0;
   padding: 0;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background: url(http://web.archive.org/web/20140301054918im_/http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
 }
 
 nav ul {
@@ -43,6 +46,18 @@ nav ul li {
   height: 36px;
   float: left;
   padding: 10px 0;
+  border-right: solid 1px #555;
+}
+
+.btn-nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-nav-link span {
+  height: 30px;
+  width: 10%;
+  margin: 3px auto;
 }
 
 #search {
